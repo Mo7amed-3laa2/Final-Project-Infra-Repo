@@ -41,7 +41,7 @@ kubectl, docker, git, jdk, ...
 ``` bash
 $ docker build . --tag <docker-id>/<image-name>:<tag>
 ```
-Then push the image to the google container registry
+Then push the image to the docker hub
 ``` bash
 $ docker push  <docker-id>/<image-name>:<tag>
 ```
