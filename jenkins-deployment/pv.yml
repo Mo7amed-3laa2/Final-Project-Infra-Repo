@@ -1,3 +1,14 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: jenkins
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: app 
+---
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
@@ -11,7 +22,6 @@ parameters:
   type: pd-standard
   fstype: ext4
   replication-type: none
-
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
