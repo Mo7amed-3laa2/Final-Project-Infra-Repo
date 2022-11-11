@@ -82,8 +82,3 @@ $ kc logs pod/<pod-name> -n jenkins
 Finally configure the jenkins master, install needed plugins and add the needed credentials.
 
 Now the jenekins master ready for piplines (next part).
-
-http://35.193.191.162:8080
-
-user: mohamed
-password: toor
